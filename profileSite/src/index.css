@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: GaretHeavy;
+    src: url("fonts/Garet-Heavy.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Garet;
+    src: url("fonts/Garet-Book.otf") format("opentype");
+}
+
