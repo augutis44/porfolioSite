@@ -11,7 +11,7 @@ const links: { label: string }[] = [
 
 const renderedLinks = links.map((link, index) => {
     return (
-        <button className="flex mb-5" key={index}>
+        <button className="flex mb-5 transition ease-in-out hover:scale-110" key={index}>
             <PiStarFourFill color='#FFAEC7' size='2rem' className="mx-4"/>
             <div className="text-red text-3xl font-secondary">
                 {link.label}
