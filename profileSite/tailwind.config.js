@@ -17,12 +17,16 @@ module.exports = {
       },
       height: {
         '30r': '30rem',
-        '20r': '20rem'
+        '20r': '20rem',
+        '364px': '364px',
+        '50px': '50px'
 
       },
       width: {
         '30r': '30rem',
-        '15r': '15rem'
+        '15r': '15rem',
+        '364px': '364px',
+        '50px': '50px'
       }
     },
   },

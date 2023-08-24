@@ -1,5 +1,4 @@
-import About from "./components/about/About";
-import TryingIconCarousel from "./components/about/TryingIconCarousel";
+import IconCarousel from "./components/about/IconCarousel";
 import LikeACat from "./components/cat/likeACat";
 import Introduction from "./components/introduction/Introduction";
 import Menu from "./components/introduction/Menu";
@@ -14,11 +13,10 @@ function App() {
       <ScrollToTop />
       <Introduction />
       <Menu />
-      <About />
+      <IconCarousel />
       <Projects />
       <Technologies />
       <LikeACat />
-      <TryingIconCarousel />
     </div>
   );
 }
