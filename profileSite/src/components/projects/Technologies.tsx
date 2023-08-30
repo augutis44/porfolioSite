@@ -25,7 +25,7 @@ const technologies = [
 const Technologies = () => {
     return (
         <div className="bg-pink">
-            <div className="bg-baby-pink m-14 p-14  rounded-xl">
+            <div className="bg-light-pink m-14 p-14  rounded-xl">
                 <div className="text-red text-6xl font-primary mb-10 uppercase text-center">
                     Technologies i work with
                 </div>

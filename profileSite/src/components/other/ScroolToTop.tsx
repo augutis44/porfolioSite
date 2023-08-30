@@ -1,4 +1,12 @@
+import { useEffect } from "react";
 
-export const ScrollToTop = () => {
-    window.scrollTo(0, 0);
+const ScrollToTop = () => {
+    useEffect(() => {
+        window.history.scrollRestoration = 'manual'
+        window.scroll(0, 0);
+    }, [])
+
+    return null;
 }
+
+export default ScrollToTop;
