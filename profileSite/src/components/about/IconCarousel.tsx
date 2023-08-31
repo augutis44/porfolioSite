@@ -5,6 +5,7 @@ import { FaCalculator } from "react-icons/fa6";
 import { PiSneakerFill } from "react-icons/pi";
 import { IconType } from 'react-icons';
 import { FiArrowLeft, FiArrowRight } from "react-icons/fi";
+import MobileAbout from './MobileAbout';
 
 const icons: { name: IconType; divDeg: number; id: number; title: string; text: string; }[] = [
     {
@@ -111,28 +112,31 @@ const IconCarousel = () => {
     // }
 
     return (
-        <div className='bg-pink flex items-center h-screen p-10'>
-            <div className="flex items-center justify-center basis-1/2">
-                <div className="relative w-30r h-30r">
-                    {icons.map((icon, i) => (
-                        <div key={i} className="absolute inset-0 transition-transform duration-500" style={{ transform: `rotate(${carouselDeg + icon.divDeg}deg)` }}>
-                            <icon.name onClick={next} className="text-6xl absolute w-32 h-32 transition-transform duration-500 fill-light-pink" style={{ transform: `rotate(${itemDeg + - icon.divDeg}deg)` }} />
+        <div>
+            <div className='hidden bg-pink md:flex items-center h-screen p-10'>
+                <div className="flex items-center justify-center basis-1/2">
+                    <div className="relative w-30r h-30r">
+                        {icons.map((icon, i) => (
+                            <div key={i} className="absolute inset-0 transition-transform duration-500" style={{ transform: `rotate(${carouselDeg + icon.divDeg}deg)` }}>
+                                <icon.name onClick={next} className="text-6xl absolute w-32 h-32 transition-transform duration-500 fill-light-pink" style={{ transform: `rotate(${itemDeg + - icon.divDeg}deg)` }} />
+                            </div>
+                        ))}
+                    </div>
+                </div>
+                <div className='bg-light-pink py-10 px-3 md:mx-16 rounded-xl flex basis-1/2 justify-between'>
+                    <button onClick={prev} className="text-red"><FiArrowLeft /></button>
+                    <div className='flex flex-col'>
+                        <div className="text-red text-6xl font-primary text-center mb-5">
+                            {icons[centerItem].title}
                         </div>
-                    ))}
+                        <div className="font-secondary text-center">
+                            {icons[centerItem].text}
+                        </div>
+                    </div>
+                    <button onClick={next} className="text-red"><FiArrowRight /></button>
                 </div>
             </div>
-            <div className='bg-light-pink py-10 px-3 mx-16 rounded-xl flex basis-1/2 justify-between'>
-                <button onClick={prev} className="text-red"><FiArrowLeft /></button>
-                <div className='flex flex-col'>
-                    <div className="text-red text-6xl font-primary text-center mb-5">
-                        {icons[centerItem].title}
-                    </div>
-                    <div className="font-secondary text-center">
-                        {icons[centerItem].text}
-                    </div>
-                </div>
-                <button onClick={next} className="text-red"><FiArrowRight /></button>
-            </div>
+            <MobileAbout icons={icons} />
         </div>
     )
 }
