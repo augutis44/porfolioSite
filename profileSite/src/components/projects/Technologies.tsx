@@ -25,17 +25,17 @@ const technologies = [
 const Technologies = () => {
     return (
         <div className="bg-pink">
-            <div className="bg-light-pink m-14 p-14  rounded-xl">
-                <div className="text-red text-6xl font-primary mb-10 uppercase text-center">
+            <div className="bg-light-pink m-4 lg:m-14 p-3 pt-10 lg:p-14  rounded-xl">
+                <div className="text-red md:text-6xl text-4xl font-primary mb-10 uppercase text-center">
                     Technologies i work with
                 </div>
                 <div className="flex items-center my-16">
                     {technologies.map((technologies, i) => (
-                        <div key={i} className="flex items-center flex-col text-center">
-                            <div className="text-red text-3xl font-seondary my-4">
+                        <div key={i} className="flex items-center flex-row lg:flex-col lg:text-center">
+                            <div className="lg:text-red lg:text-3xl lg:font-seondary lg:my-4 lg:inline hidden">
                                 {technologies.name}
                             </div>
-                            <img src={technologies.icon} alt={technologies.name} className="w-1/2"></img>
+                            <img src={technologies.icon} alt={technologies.name} className="lg:w-1/2"></img>
                         </div>
                     ))}
                 </div>
