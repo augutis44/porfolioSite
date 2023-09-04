@@ -12,20 +12,20 @@ const Footer = () => {
                 got questions?
             </div>
             <div className="flex flex-col">
-                <div className="flex flex-row items-center text-xl">
-                    <HiOutlineMail className="text-red text-3xl mx-3" />
+                <div className="flex flex-row items-center text-xl md:text-3xl">
+                    <HiOutlineMail className="text-red text-5xl mx-3" />
                     kraujalytee@gmail.com
                 </div>
-                <div className="flex flex-row items-center text-xl">
-                    <AiOutlinePhone className="text-red text-3xl mx-3" />
+                <div className="flex flex-row items-center text-xl md:text-3xl">
+                    <AiOutlinePhone className="text-red text-5xl mx-3" />
                     +37064593404
                 </div>
-                <div className="flex flex-row items-center text-xl">
-                    <FiGithub className="text-red text-3xl mx-3" />
+                <div className="flex flex-row items-center text-xl md:text-3xl">
+                    <FiGithub className="text-red text-5xl mx-3" />
                     <a href="https://github.com/augutis44">https://github.com/augutis44</a>
                 </div>
-                <div className="flex flex-row items-center text-xl">
-                    <FaLinkedin className="text-red text-3xl mx-3" />
+                <div className="flex flex-row items-center text-xl md:text-3xl">
+                    <FaLinkedin className="text-red text-5xl mx-3" />
                     <a href="https://www.linkedin.com/in/augustina-kraujalyte/">https://www.linkedin.com/in/augustina-kraujalyte/</a>
                 </div>
             </div>
