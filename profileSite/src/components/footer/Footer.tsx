@@ -17,10 +17,6 @@ const Footer = () => {
                     kraujalytee@gmail.com
                 </div>
                 <div className="flex flex-row items-center text-xl md:text-3xl">
-                    <AiOutlinePhone className="text-red text-5xl mx-3" />
-                    +37064593404
-                </div>
-                <div className="flex flex-row items-center text-xl md:text-3xl">
                     <FiGithub className="text-red text-5xl mx-3" />
                     <a href="https://github.com/augutis44">https://github.com/augutis44</a>
                 </div>

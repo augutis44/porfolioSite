@@ -24,14 +24,14 @@ const technologies = [
 
 const Technologies = () => {
     return (
-        <div className="bg-pink h-screen flex">
-            <div className="bg-light-pink m-4 lg:m-14 p-3 pt-10 rounded-xl flex flex-col justify-center">
+        <div className="bg-pink h-screen flex ">
+            <div className="bg-light-pink m-4 lg:m-14 p-3 pt-10 rounded-xl flex flex-col justify-center ">
                 <div className="text-red md:text-6xl text-4xl font-primary mb-10 uppercase text-center">
                     Technologies i work with
                 </div>
-                <div className="grid grid-rows-2 md:flex grid-flow-col">
+                <div className="grid grid-rows-2 md:flex grid-flow-col md:justify-center place-items-center">
                     {technologies.map((technologies, i) => (
-                        <div key={i} className="flex items-center flex-row lg:flex-col lg:text-center">
+                        <div key={i} className="flex items-center flex-row lg:flex-col lg:text-center justify-center">
                             <div className="lg:text-red lg:text-3xl lg:font-seondary lg:my-4 lg:inline hidden">
                                 {technologies.name}
                             </div>

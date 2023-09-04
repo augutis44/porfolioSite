@@ -125,7 +125,7 @@ const IconCarousel = () => {
                 </div>
                 <div className='flex flex-col basis-1/2 h-full'>
                     <div className='text-red text-6xl font-primary uppercase text-center justify-start h-1/3'>
-                        ABOUT
+                        ABOUT ME
                     </div>
                     <div className='bg-light-pink py-10 px-3 md:mx-16 rounded-xl flex justify-between'>
                         <button onClick={prev} className="text-red mr-5"><FiArrowLeft /></button>

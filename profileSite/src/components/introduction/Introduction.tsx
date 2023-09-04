@@ -46,7 +46,7 @@ const Introduction = () => {
                 }}>
                     <PiStarFourFill className='md:text-6xl text-3xl text-light-pink' />
                 </animated.div>
-                <animated.div className="text-red text-5xl md:text-6xl lg:text-8xl font-primary mb-5" style={{
+                <animated.div className="text-red text-5xl md:text-6xl lg:text-8xl font-primary mb-5 " style={{
                     ...springs1
                 }}>
                     HI I'M <br /> AUGUSTINA
