@@ -123,17 +123,22 @@ const IconCarousel = () => {
                         ))}
                     </div>
                 </div>
-                <div className='bg-light-pink py-10 px-3 md:mx-16 rounded-xl flex basis-1/2 justify-between'>
-                    <button onClick={prev} className="text-red"><FiArrowLeft /></button>
-                    <div className='flex flex-col'>
-                        <div className="text-red text-6xl font-primary text-center mb-5">
-                            {icons[centerItem].title}
-                        </div>
-                        <div className="font-secondary text-center">
-                            {icons[centerItem].text}
-                        </div>
+                <div className='flex flex-col basis-1/2 h-full'>
+                    <div className='text-red text-6xl font-primary uppercase text-center justify-start h-1/3'>
+                        ABOUT
                     </div>
-                    <button onClick={next} className="text-red"><FiArrowRight /></button>
+                    <div className='bg-light-pink py-10 px-3 md:mx-16 rounded-xl flex justify-between'>
+                        <button onClick={prev} className="text-red"><FiArrowLeft /></button>
+                        <div className='flex flex-col'>
+                            <div className="text-red text-6xl font-primary text-center mb-5">
+                                {icons[centerItem].title}
+                            </div>
+                            <div className="font-secondary text-center">
+                                {icons[centerItem].text}
+                            </div>
+                        </div>
+                        <button onClick={next} className="text-red"><FiArrowRight /></button>
+                    </div>
                 </div>
             </div>
             <MobileAbout icons={icons} />

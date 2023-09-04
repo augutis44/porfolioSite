@@ -7,13 +7,17 @@ const links: { label: string; link: string; }[] = [
         link: 'about'
     },
     {
-        label: 'My work & technologies',
+        label: 'My work',
         link: 'work'
     },
     {
-        label: 'Cute picture of my cat',
-        link: 'cat'
+        label: 'Technologies',
+        link: 'technologies'
     },
+    // {
+    //     label: 'Cute picture of my cat',
+    //     link: 'cat'
+    // },
     {
         label: 'Contacts',
         link: 'contacts'
