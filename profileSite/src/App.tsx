@@ -1,5 +1,6 @@
 import IconCarousel from "./components/about/IconCarousel";
-import LikeACat from "./components/cat/likeACat";
+// import LikeACat from "./components/cat/likeACat";
+import Footer from "./components/footer/Footer";
 import Introduction from "./components/introduction/Introduction";
 import Menu from "./components/introduction/Menu";
 import ScroolToTop from "./components/other/ScroolToTop"
@@ -19,9 +20,14 @@ function App() {
       <section id='work'>
         <Projects />
       </section>
-      <Technologies />
-      <section id='cat'>
+      <section id='technologies'>
+        <Technologies />
+      </section>
+      {/* <section id='cat'>
         <LikeACat />
+      </section> */}
+      <section id='contacts'>
+        <Footer />
       </section>
     </div >
   );
