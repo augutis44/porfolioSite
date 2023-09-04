@@ -118,16 +118,16 @@ const IconCarousel = () => {
                     <div className="relative w-30r h-30r">
                         {icons.map((icon, i) => (
                             <div key={i} className="absolute inset-0 transition-transform duration-500" style={{ transform: `rotate(${carouselDeg + icon.divDeg}deg)` }}>
-                                <icon.name onClick={next} className="text-6xl absolute w-32 h-32 transition-transform duration-500 fill-light-pink" style={{ transform: `rotate(${itemDeg + - icon.divDeg}deg)` }} />
+                                <icon.name onClick={next} className="text-6xl absolute w-32 h-32 transition-transform duration-500 fill-light-pink drop-shadow-lg" style={{ transform: `rotate(${itemDeg - icon.divDeg}deg)` }} />
                             </div>
                         ))}
                     </div>
                 </div>
                 <div className='flex flex-col basis-1/2 h-full'>
-                    <div className='text-red text-6xl font-primary uppercase text-center justify-start h-1/3'>
+                    <div className='text-red text-6xl font-primary uppercase text-center justify-start h-1/3 drop-shadow'>
                         ABOUT ME
                     </div>
-                    <div className='bg-light-pink py-10 px-3 md:mx-16 rounded-xl flex justify-between'>
+                    <div className='bg-light-pink py-10 px-3 md:mx-16 rounded-xl flex justify-between drop-shadow-lg'>
                         <button onClick={prev} className="text-red mr-5"><FiArrowLeft /></button>
                         <div className='flex flex-col'>
                             <div className="text-red text-6xl font-primary text-center mb-5">
