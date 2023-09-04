@@ -13,56 +13,56 @@ const icons: { name: IconType; divDeg: number; id: number; title: string; text: 
         divDeg: 0,
         id: 0,
         title: 'Sports',
-        text: 'Trying to stay active all year round. In the summer I like outdoor activities like running and hiking. In the cold season I go to the gym and pole sport classes'
+        text: 'Trying to stay active all year round. In the summer I like outdoor activities like running and hiking. In the cold season I go to the gym and pole sport classes.'
     },
     {
         name: FaHamburger,
         divDeg: 45,
         id: 1,
         title: 'Cooking',
-        text: 'I am a FOODIE. Love cooking food at home, making home made pizza, burgers all from scrach, even the dogh. Also sometimes make cakes and buns.'
+        text: 'I am a FOODIE. Love cooking food at home, making homemade pizza and burgers all from scratch, even the dough. Also, sometimes make cakes and buns.'
     },
     {
         name: FaPlane,
         divDeg: 90,
         id: 2,
         title: 'Travel',
-        text: 'Trying to have at least one vacation in a year. Been to Italy, Spain, Portugal, Netherlands, Belgium, Poland, England, Ibiza and Capri islands. The most beautiful place Ive been to would be Capri island'
+        text: 'Trying to have at least one vacation in a year. Been to Italy, Spain, Portugal, Netherlands, Belgium, Poland, England, Baltic States, Slovakia, Ibiza and Capri islands. The most beautiful place I\'ve been to would be Capri island.'
     },
     {
         name: FaHome,
         divDeg: 135,
         id: 3,
-        title: 'My Home',
-        text: 'Originaly from Utena, now after finishing university, still living in Vilnius'
+        title: 'My home',
+        text: 'Most of my life was spent in Utena, I grew up there. After school moved out to Vilnius for studies and now after finishing university, still living in Vilnius.'
     },
     {
         name: FaCat,
         divDeg: 180,
         id: 4,
-        title: 'Love For Animals',
-        text: 'Oh how i love animals. Dreaming about owning a big house and a lot of animals. For now i have a cat. Found her in the streets and now shes our home princess.'
+        title: 'Love for animals',
+        text: 'Oh, how I love animals. Dreaming about owning a big house with at least one dog and two cats. For now I have a cat. Found her in the streets and now she\'s our home princess. Also donating money every year to animal shelters.'
     },
     {
         name: BsPaletteFill,
         divDeg: 225,
         id: 5,
-        title: 'Arts and Crafts',
-        text: 'Another inseparable part of my life is art. Finnished art school with a praise. Now i love painting on clothes like shoes and t-shirts. Also love to make some silly crafts like Nike box handbag.'
+        title: 'Arts and crafts',
+        text: 'Another inseparable part of my life is art. Finished art school with a praise. Now I love painting on clothes like shoes and t-shirts. Also love to make some silly crafts like Nike box handbag.'
     },
     {
         name: FaCalculator,
         divDeg: 270,
         id: 6,
         title: 'Mathematics',
-        text: 'My love for maths started in 6th grade. '
+        text: 'My love for math started in 9th grade. Then I realized, I wanted to study mathematics in Vilnius university. My small dream came true and after hard 4 years in university I can proudly say I\'m a graduate of mathematics and application of mathematics.'
     },
     {
         name: PiSneakerFill,
         divDeg: 315,
         id: 7,
-        title: 'Sneaker Lover',
-        text: 'Another thing that I am pasionate about is sneakers. Love seing new relieses, collaborations. I own about 20 pairs of sneakers.'
+        title: 'Shoe lover',
+        text: 'Another thing that I am passionate about is shoes. Love seeing new releases and collaborations. I own about 25 pairs of shoes (and the collection is getting bigger).'
     }
 ]
 
@@ -128,7 +128,7 @@ const IconCarousel = () => {
                         ABOUT
                     </div>
                     <div className='bg-light-pink py-10 px-3 md:mx-16 rounded-xl flex justify-between'>
-                        <button onClick={prev} className="text-red"><FiArrowLeft /></button>
+                        <button onClick={prev} className="text-red mr-5"><FiArrowLeft /></button>
                         <div className='flex flex-col'>
                             <div className="text-red text-6xl font-primary text-center mb-5">
                                 {icons[centerItem].title}
@@ -137,7 +137,7 @@ const IconCarousel = () => {
                                 {icons[centerItem].text}
                             </div>
                         </div>
-                        <button onClick={next} className="text-red"><FiArrowRight /></button>
+                        <button onClick={next} className="text-red ml-5"><FiArrowRight /></button>
                     </div>
                 </div>
             </div>
