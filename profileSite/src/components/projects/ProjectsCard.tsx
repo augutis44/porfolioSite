@@ -21,10 +21,10 @@ const ProjectsCard = () => {
             {projects.map((project, i) => (
                 <div key={i} className="flex items-center flex-col text-center basis-1/3 mx-5 mt-10 lg:mt-0">
                     <PiStarFourFill className='md:text-6xl text-3xl text-pink' />
-                    <div className="text-red text-3xl font-seondary my-4">
+                    <div className="text-red text-2xl md:text-3xl font-seondary my-4">
                         {project.name}
                     </div>
-                    <div className="text-xl font-secondary mb-5">
+                    <div className="md:text-xl font-secondary mb-5">
                         {project.about}
                     </div>
                     <div className="h-20r w-15r bg-red rounded-xl">

@@ -39,13 +39,12 @@ const Technologies = () => {
                         </div>
                     ))}
                 </div>
-                <div className="text-xl font-secondary text-center mt-10">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sodales
-                    purus sit amet porta aliquet. Cras vulputate tristique nunc nec cursus. Integer
-                    risus odio, imperdiet in arcu vel, consectetur tincidunt est. Vestibulum maximus
-                    tempus enim, tristique posuere nisl varius non. Nullam non erat massa. Fusce
-                    eu gravida lorem. Aenean a accumsan diam, vel convallis diam. Curabitur eu
-                    enim velit. Cras porta sit amet dolor ac ullamcorper.
+                <div className="text-xl font-secondary text-center mt-10 mx-5">
+                    I am a react developer, programing mainly with JavaScript. Also learing TypeScript on the side.
+                    Using Tailwind framework, but also have tried working with react component library Material-UI (MUI).
+                    Beside that, I also know how to work with GitHub.
+                    <br/>
+                    I am a fast learner, so will be able to learn new frameworks or libaries that your company works with.
                 </div>
             </div>
         </div>
