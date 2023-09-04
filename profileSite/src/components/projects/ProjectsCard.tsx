@@ -17,7 +17,7 @@ const projects = [
 
 const ProjectsCard = () => {
     return (
-        <div className="flex items-center flex-col md:flex-row">
+        <div className="flex flex-col md:flex-row">
             {projects.map((project, i) => (
                 <div key={i} className="flex items-center flex-col text-center basis-1/3 mx-5 mt-10 lg:mt-0">
                     <PiStarFourFill className='md:text-6xl text-3xl text-pink' />
@@ -27,7 +27,7 @@ const ProjectsCard = () => {
                     <div className="md:text-xl font-secondary mb-5">
                         {project.about}
                     </div>
-                    <div className="h-20r w-15r bg-red rounded-xl">
+                    <div className="h-48 w-36 lg:h-20r lg:w-15r bg-red rounded-xl">
                     </div>
                 </div>
             ))}

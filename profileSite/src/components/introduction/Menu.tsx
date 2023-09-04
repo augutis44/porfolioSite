@@ -43,7 +43,7 @@ const Menu = () => {
         <div className="flex flex-col md:flex-row">
             <div className="basis-1/2 hidden md:inline">
                 <div className="bg-red flex justify-center h-screen">
-                    <img src='IMG_5846.jpg' alt='a photo of me' className="bg-contain p-24">
+                    <img src='IMG_0965.JPG' alt='a photo of me' className="bg-contain p-24">
                     </img>
                 </div>
             </div>

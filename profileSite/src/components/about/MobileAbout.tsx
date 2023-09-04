@@ -4,7 +4,7 @@ const MobileAbout = ({ icons }) => {
     return (
         <div className="md:hidden bg-pink items-center py-3">
             <div className="text-red text-5xl font-primary uppercase text-center py-3">
-                About
+                About Me
             </div>
             <div className='flex flex-col'>
                 {icons.map((icon, i) => (

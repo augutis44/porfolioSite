@@ -4,6 +4,7 @@ import Footer from "./components/footer/Footer";
 import Introduction from "./components/introduction/Introduction";
 import Menu from "./components/introduction/Menu";
 import ScroolToTop from "./components/other/ScroolToTop"
+import ToTopButton from "./components/other/ToTopButton";
 import Projects from "./components/projects/projects";
 import Technologies from "./components/projects/technologies";
 
@@ -12,8 +13,11 @@ function App() {
   return (
     <div className="flex flex-col">
       <ScroolToTop />
+      <ToTopButton />
       <Introduction />
-      <Menu />
+      <section id='menu'>
+        <Menu />
+      </section>
       <section id='about'>
         <IconCarousel />
       </section>
