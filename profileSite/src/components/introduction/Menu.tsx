@@ -26,14 +26,14 @@ const links: { label: string; link: string; }[] = [
 
 const renderedLinks = links.map((link, index) => {
     return (
-        <button className="flex mb-5 transition ease-in-out hover:scale-110" key={index}>
-            <PiStarFourFill color='#FFAEC7' size='2rem' className="mx-4 drop-shadow" />
+        <button className="flex mb-3 md:mb-5 transition ease-in-out hover:scale-110" key={index}>
+            <PiStarFourFill color='#FFAEC7' className="mx-4 drop-shadow text-2xl" />
             <div className="text-red text-xl lg:text-3xl font-secondary drop-shadow">
                 <Link activeClass="active" smooth spy to={link.link}>
                     {link.label}
                 </Link>
             </div>
-            <PiStarFourFill color='#FFAEC7' size='2rem' className="mx-4 drop-shadow" />
+            <PiStarFourFill color='#FFAEC7' className="mx-4 drop-shadow text-2xl" />
         </button>
     )
 })
@@ -50,7 +50,7 @@ const Menu = () => {
             </div>
             <div className="basis-1/2">
                 <div className="bg-light-pink h-full flex flex-col items-center text-center justify-center py-22">
-                    <div className="text-red text-5xl lg:text-6xl font-primary mb-10 uppercase mt-10 md:mt-0 drop-shadow">
+                    <div className="text-red text-4xl md:text-6xl font-primary mb-5 md:mb-10 uppercase mt-5 md:mt-10 lg:mt-0 drop-shadow">
                         Let me help <br /> to find what  <br />you are <br /> looking for
                     </div>
                     <div className="flex flex-col items-center">
