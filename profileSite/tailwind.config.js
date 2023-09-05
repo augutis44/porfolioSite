@@ -15,7 +15,9 @@ module.exports = {
       },
       height: {
         '30r': '30rem',
+        '15r': '15rem',
         '20r': '20rem',
+        '25r': '25rem',
         '364px': '364px',
         '50px': '50px'
 
@@ -23,6 +25,8 @@ module.exports = {
       width: {
         '30r': '30rem',
         '15r': '15rem',
+        '20r': '20rem',
+        '25r': '25rem',
         '364px': '364px',
         '50px': '50px'
       }

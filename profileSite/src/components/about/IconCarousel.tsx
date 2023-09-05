@@ -113,7 +113,7 @@ const IconCarousel = () => {
 
     return (
         <div>
-            <div className='hidden bg-pink md:flex items-center h-screen p-10'>
+            <div className='hidden bg-pink lg:flex items-center h-screen p-10'>
                 <div className="flex items-center justify-center basis-1/2">
                     <div className="relative w-30r h-30r">
                         {icons.map((icon, i) => (
