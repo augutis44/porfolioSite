@@ -25,8 +25,8 @@ const technologies = [
 const Technologies = () => {
     return (
         <div className="bg-pink lg:h-screen flex ">
-            <div className="bg-light-pink m-3 lg:m-14 p-3 pt-10 rounded-xl flex flex-col justify-center drop-shadow-lg">
-                <div className="text-red md:text-6xl text-3xl font-primary mb-10 uppercase text-center drop-shadow">
+            <div className="bg-light-pink m-3 lg:m-14 p-3 py-10 rounded-xl flex flex-col justify-center drop-shadow-lg">
+                <div className="text-red md:text-6xl text-3xl font-primary pb-10 uppercase text-center drop-shadow">
                     Technologies i work with
                 </div>
                 <div className="grid grid-rows-2 md:flex grid-flow-col md:justify-center place-items-center">
@@ -39,7 +39,7 @@ const Technologies = () => {
                         </div>
                     ))}
                 </div>
-                <div className="text-base md:text-xl font-secondary text-center mt-10">
+                <div className="text-base md:text-xl font-secondary text-center mt-10 lg:mx-16">
                     I am a react developer, programing mainly with JavaScript. Also learing TypeScript on the side.
                     Using Tailwind framework, but also have tried working with react component library Material-UI (MUI).
                     Beside that, I also know how to work with GitHub.
