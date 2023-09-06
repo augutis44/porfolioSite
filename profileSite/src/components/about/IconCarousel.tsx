@@ -54,7 +54,7 @@ const icons: { name: IconType; divDeg: number; id: number; title: string; text: 
         name: FaCalculator,
         divDeg: 270,
         id: 6,
-        title: 'Mathematics',
+        title: 'Math',
         text: 'My love for math started in 9th grade. Then I realized, I wanted to study mathematics in Vilnius university. My small dream came true and after hard 4 years in university I can proudly say I\'m a graduate of mathematics and application of mathematics.'
     },
     {
@@ -67,8 +67,8 @@ const icons: { name: IconType; divDeg: number; id: number; title: string; text: 
 ]
 
 const IconCarousel = () => {
-    const [carouselDeg, setcarouselDeg] = useState(0);
-    const [itemDeg, setItemDeg] = useState(0);
+    const [carouselDeg, setcarouselDeg] = useState(-13);
+    const [itemDeg, setItemDeg] = useState(13);
     const [centerItem, setCenterItem] = useState(3);
 
     const next = () => {
@@ -115,10 +115,10 @@ const IconCarousel = () => {
         <div>
             <div className='hidden bg-pink lg:flex items-center h-screen p-10'>
                 <div className="flex items-center justify-center basis-1/2">
-                    <div className="relative w-30r h-30r">
+                    <div className="relative w-[35vw] h-[35vw]">
                         {icons.map((icon, i) => (
                             <div key={i} className="absolute inset-0 transition-transform duration-500" style={{ transform: `rotate(${carouselDeg + icon.divDeg}deg)` }}>
-                                <icon.name onClick={next} className="text-6xl absolute w-32 h-32 transition-transform duration-500 fill-light-pink drop-shadow-lg" style={{ transform: `rotate(${itemDeg - icon.divDeg}deg)` }} />
+                                <icon.name onClick={next} className="text-6xl absolute w-[17vw] h-[17vh] transition-transform duration-500 fill-light-pink drop-shadow-lg" style={{ transform: `rotate(${itemDeg - icon.divDeg}deg)` }} />
                             </div>
                         ))}
                     </div>
@@ -127,17 +127,17 @@ const IconCarousel = () => {
                     <div className='text-red text-6xl font-primary uppercase text-center justify-start h-1/3 drop-shadow'>
                         ABOUT ME
                     </div>
-                    <div className='bg-light-pink py-10 px-3 md:mx-16 rounded-xl flex justify-between drop-shadow-lg'>
-                        <button onClick={prev} className="text-red mr-5"><FiArrowLeft /></button>
+                    <div className='bg-light-pink py-10 px-3 md:ml-16 rounded-xl flex justify-between drop-shadow-lg'>
+                        <button onClick={prev} className="text-red mr-5 text-2xl"><FiArrowLeft /></button>
                         <div className='flex flex-col'>
-                            <div className="text-red text-6xl font-primary text-center mb-5">
+                            <div className="text-red text-5xl font-primary text-center mb-5">
                                 {icons[centerItem].title}
                             </div>
                             <div className="font-secondary text-center">
                                 {icons[centerItem].text}
                             </div>
                         </div>
-                        <button onClick={next} className="text-red ml-5"><FiArrowRight /></button>
+                        <button onClick={next} className="text-red ml-5 text-2xl"><FiArrowRight /></button>
                     </div>
                 </div>
             </div>

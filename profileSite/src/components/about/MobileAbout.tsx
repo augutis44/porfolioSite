@@ -2,8 +2,8 @@
 const MobileAbout = ({ icons }) => {
 
     return (
-        <div className="lg:hidden bg-pink items-center py-3">
-            <div className="text-red text-3xl font-primary uppercase text-center py-3 drop-shadow">
+        <div className="lg:hidden bg-pink items-center pt-10 pb-3">
+            <div className="text-red text-3xl md:text-6xl font-primary uppercase text-center pb-10 drop-shadow">
                 About Me
             </div>
             <div className='flex flex-col'>
@@ -15,7 +15,7 @@ const MobileAbout = ({ icons }) => {
                                 {icon.title}
                             </div>
                         </div>
-                        <div className="text-base font-secondary text-center">
+                        <div className="text-base md:text-xl font-secondary text-center">
                             {icon.text}
                         </div>
                     </div>
