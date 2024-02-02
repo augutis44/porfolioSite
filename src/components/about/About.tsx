@@ -1,5 +1,10 @@
 
-const About = ({title, text}) => {
+export interface AboutProps {
+    title: string;
+    text: string;
+  }
+
+const About = ({ title, text }: AboutProps) => {
     return (
         <div>
             <div className="bg-light-pink py-10 px-3 mx-16 rounded-xl">

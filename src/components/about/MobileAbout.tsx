@@ -1,5 +1,10 @@
+import { IconsProps } from "./PropTypes";
 
-const MobileAbout = ({ icons }) => {
+interface MobileAboutProps {
+    icons: IconsProps[]
+}
+
+const MobileAbout = ({ icons }: MobileAboutProps) => {
 
     return (
         <div className="lg:hidden bg-pink items-center pt-10 pb-3">

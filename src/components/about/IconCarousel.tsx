@@ -3,11 +3,11 @@ import { FaRunning, FaHamburger, FaPlane, FaHome, FaCat } from 'react-icons/fa';
 import { BsPaletteFill } from "react-icons/bs";
 import { FaCalculator } from "react-icons/fa6";
 import { PiSneakerFill } from "react-icons/pi";
-import { IconType } from 'react-icons';
 import { FiArrowLeft, FiArrowRight } from "react-icons/fi";
 import MobileAbout from './MobileAbout';
+import { IconsProps } from './PropTypes';
 
-const icons: { name: IconType; divDeg: number; id: number; title: string; text: string; }[] = [
+const icons: IconsProps[] = [
     {
         name: FaRunning,
         divDeg: 0,
