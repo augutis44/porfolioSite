@@ -54,7 +54,7 @@ const Introduction = () => {
                 <animated.div className="text-light-pink bold text-2xl md:text-4xl lg:text-5xl font-secondary drop-shadow shadow-white" style={{
                     ...springs2
                 }}>
-                    Beginner front-end <br /> web developer
+                    Beginner web developer
                 </animated.div>
             </div>
             <div className="basis-1/2 bg-pink p-4">

@@ -14,10 +14,6 @@ const links: { label: string; link: string; }[] = [
         label: 'Technologies',
         link: 'technologies'
     },
-    // {
-    //     label: 'Cute picture of my cat',
-    //     link: 'cat'
-    // },
     {
         label: 'Contacts',
         link: 'contacts'
@@ -40,24 +36,13 @@ const renderedLinks = links.map((link, index) => {
 
 const Menu = () => {
     return (
-        <div className="lg:flex lg:flex-row">
-            <div className="hidden lg:inline lg:basis-1/2">
-                <div className="bg-red flex justify-center h-screen py-12 px-32">
-                    <div className="h-auto self-center">
-                        <div className="bg-light-pink rounded p-4 drop-shadow-lg">
-                            <img src='IMG_0965.JPG' alt='a photo of me' className="object-cover md:h-full rounded" />
-                        </div>
-                    </div>
+        <div className="lg:basis-1/2">
+            <div className="bg-light-pink h-full flex flex-col items-center text-center justify-center py-10">
+                <div className="text-red text-4xl md:text-6xl font-primary mb-5 md:mb-10 uppercase mt-5 md:mt-10 lg:mt-0 drop-shadow">
+                    Let me help <br /> to find what  <br />you are <br /> looking for
                 </div>
-            </div>
-            <div className="lg:basis-1/2">
-                <div className="bg-light-pink h-full flex flex-col items-center text-center justify-center py-10">
-                    <div className="text-red text-4xl md:text-6xl font-primary mb-5 md:mb-10 uppercase mt-5 md:mt-10 lg:mt-0 drop-shadow">
-                        Let me help <br /> to find what  <br />you are <br /> looking for
-                    </div>
-                    <div className="flex flex-col items-center">
-                        {renderedLinks}
-                    </div>
+                <div className="flex flex-col items-center">
+                    {renderedLinks}
                 </div>
             </div>
         </div>
