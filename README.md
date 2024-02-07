@@ -14,3 +14,4 @@ Navigate through different sections of the website to explore more about me, my 
 
 ## Link to site
 
+[Link to portfolio](https://brilliant-seahorse-f58c0b.netlify.app/) 
