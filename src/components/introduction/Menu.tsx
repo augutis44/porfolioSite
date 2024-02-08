@@ -45,7 +45,6 @@ const Menu = () => {
                     {renderedLinks}
                 </div>
             </div>
-            <div className="bg-[url('/Untitled_Artwork-reverse.png')] bg-[length:100%] h-44 w-full bg-left-top bg-no-repeat "></div>
         </div>
     )
 }

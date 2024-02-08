@@ -19,7 +19,7 @@ const ProjectsCard = () => {
     return (
         <div className="flex flex-col md:flex-row">
             {projects.map((project, i) => (
-                <div key={i} className="flex items-center flex-col text-center basis-1/3 md:mx-5">
+                <div key={i} className="flex items-center flex-col text-center basis-1/3">
                     <PiStarFourFill className='md:text-4xl text-2xl text-pink drop-shadow' />
                     <div className="text-red text-2xl md:text-3xl font-seondary my-2 md:my-4 drop-shadow">
                         {project.name}

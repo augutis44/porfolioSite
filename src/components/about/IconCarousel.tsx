@@ -113,36 +113,43 @@ const IconCarousel = () => {
 
     return (
         <div>
-            
-            <div className='hidden bg-pink lg:flex items-center h-screen p-10'>
-                <div className="flex items-center justify-center basis-1/2">
-                    <div className="relative w-[35vw] h-[35vw]">
-                        {icons.map((icon, i) => (
-                            <div key={i} className="absolute inset-0 transition-transform duration-500" style={{ transform: `rotate(${carouselDeg + icon.divDeg}deg)` }}>
-                                <icon.name onClick={next} className="text-6xl absolute w-[17vw] h-[17vh] transition-transform duration-500 fill-light-pink drop-shadow-lg" style={{ transform: `rotate(${itemDeg - icon.divDeg}deg)` }} />
-                            </div>
-                        ))}
-                    </div>
-                </div>
-                <div className='flex flex-col basis-1/2 h-full'>
-                    <div className='text-red text-6xl font-primary uppercase text-center justify-start h-1/3 drop-shadow'>
-                        ABOUT ME
-                    </div>
-                    <div className='bg-light-pink py-10 px-3 md:ml-16 rounded-xl flex justify-between drop-shadow-lg'>
-                        <button onClick={prev} className="text-red mr-5 text-2xl"><FiArrowLeft /></button>
-                        <div className='flex flex-col'>
-                            <div className="text-red text-5xl font-primary text-center mb-5">
-                                {icons[centerItem].title}
-                            </div>
-                            <div className="font-secondary text-center">
-                                {icons[centerItem].text}
-                            </div>
-                        </div>
-                        <button onClick={next} className="text-red ml-5 text-2xl"><FiArrowRight /></button>
-                    </div>
-                </div>
+            <div className="bg-light-pink">
+                <div className="bg-[url('/Untitled_Artwork-reverse.png')] bg-[length:100%] h-[9rem] md:h-[10rem] xl:h-[11rem] 2xl:h-[14rem] w-full bg-left-bottom bg-no-repeat"></div>
             </div>
-            <MobileAbout icons={icons} />
+            <div>
+                <div className='hidden bg-pink lg:flex items-center px-10'>
+
+                    <div className="flex items-center justify-center basis-1/2">
+                        <div className="relative w-[35vw] h-[35vw]">
+                            {icons.map((icon, i) => (
+                                <div key={i} className="absolute inset-0 transition-transform duration-500" style={{ transform: `rotate(${carouselDeg + icon.divDeg}deg)` }}>
+                                    <icon.name onClick={next} className="text-6xl absolute w-[17vw] h-[17vh] transition-transform duration-500 fill-light-pink drop-shadow-lg" style={{ transform: `rotate(${itemDeg - icon.divDeg}deg)` }} />
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+
+                    <div className='flex flex-col basis-1/2 h-full md:ml-10'>
+                        <div className='text-red text-6xl font-primary uppercase text-center justify-start h-1/3 drop-shadow md:mb-8'>
+                            ABOUT ME
+                        </div>
+                        <div className='bg-light-pink px-3 rounded-xl flex justify-between items-center drop-shadow-lg lg:h-[18rem] xl:h-[16rem]'>
+                            <button onClick={prev} className="text-red mr-5 text-2xl"><FiArrowLeft /></button>
+                            <div className='flex flex-col'>
+                                <div className="text-red text-5xl font-primary text-center mb-5">
+                                    {icons[centerItem].title}
+                                </div>
+                                <div className="font-secondary text-center">
+                                    {icons[centerItem].text}
+                                </div>
+                            </div>
+                            <button onClick={next} className="text-red ml-5 text-2xl"><FiArrowRight /></button>
+                        </div>
+                    </div>
+
+                </div>
+                <MobileAbout icons={icons} />
+            </div>
         </div>
     )
 }

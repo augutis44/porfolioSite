@@ -65,7 +65,7 @@ const Introduction = () => {
                 </div>
             </div>
             <div className="bg-light-pink">
-            <div className="bg-[url('/Untitled_Artwork.png')] bg-[length:100%] h-[9rem] md:h-[10rem] xl:h-[11rem] 2xl:h-[14rem] w-full bg-left-top bg-no-repeat"></div>
+                <div className="bg-[url('/Untitled_Artwork.png')] bg-[length:100%] h-[9rem] md:h-[10rem] xl:h-[11rem] 2xl:h-[14rem] w-full bg-left-top bg-no-repeat"></div>
             </div>
         </div>
     );
