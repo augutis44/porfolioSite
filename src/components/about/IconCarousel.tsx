@@ -92,25 +92,6 @@ const IconCarousel = () => {
         setCenterItem(centerItem + 1);
     };
 
-    // const handleClick = (divDeg) => {
-    //     const currentDeg = rotation + divDeg
-    //     const circleNum = Math.floor(currentDeg / 360)
-    //     let neededDeg = 0
-    //     if (currentDeg % 360 == 0 || currentDeg == 0) {
-    //         neededDeg = currentDeg + 90
-    //     } else if (currentDeg > 90 + 360 * circleNum) {
-    //         neededDeg = 90 + (360 * (circleNum + 1))
-    //     } else {
-    //         neededDeg = 90 + 360 * circleNum
-    //     }
-    //     const rotationDeg = neededDeg - currentDeg + 45
-
-    //     console.log(currentDeg)
-    //     console.log(circleNum)
-    //     console.log(neededDeg)
-    //     console.log(rotationDeg)
-    // }
-
     return (
         <div>
             <div className="bg-light-pink">
