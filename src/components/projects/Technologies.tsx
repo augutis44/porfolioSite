@@ -2,23 +2,23 @@
 const technologies = [
     {
         name: 'React',
-        icon: 'public/image (2).png'
+        icon: '/image (2).png'
     },
     {
         name: 'Tailwind',
-        icon: 'public/image.png'
+        icon: '/image.png'
     },
     {
         name: 'MUI',
-        icon: 'public/image (1).png'
+        icon: '/image (1).png'
     },
     {
         name: 'Typescript',
-        icon: 'public/Typescript_logo_2020.svg.png'
+        icon: '/Typescript_logo_2020.svg.png'
     },
     {
         name: 'Javascript',
-        icon: 'public/pngegg (1).png'
+        icon: '/pngegg (1).png'
     }
 ]
 

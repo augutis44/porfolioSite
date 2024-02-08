@@ -27,7 +27,10 @@ const ProjectsCard = () => {
                     <div className="text-base md:text-xl font-secondary mb-2 md:mb-5">
                         {project.about}
                     </div>
-                    <div className="h-48 w-36 lg:h-20r lg:w-15r bg-red rounded-xl drop-shadow-lg">
+                    <div className="h-48 w-full bg-red rounded-xl drop-shadow-lg">
+                        <a href="#">
+                        <iframe src="https://glistening-banoffee-211c1b.netlify.app/"></iframe>
+                        </a>
                     </div>
                 </div>
             ))}

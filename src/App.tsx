@@ -18,6 +18,7 @@ function App() {
       <section id='menu'>
         <Menu />
       </section>
+      
       <section id='about'>
         <IconCarousel />
       </section>

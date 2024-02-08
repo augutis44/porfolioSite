@@ -36,15 +36,18 @@ const renderedLinks = links.map((link, index) => {
 
 const Menu = () => {
     return (
-        <div className="lg:basis-1/2">
-            <div className="bg-light-pink h-full flex flex-col items-center text-center justify-center py-10">
-                <div className="text-red text-4xl md:text-6xl font-primary mb-5 md:mb-10 uppercase mt-5 md:mt-10 lg:mt-0 drop-shadow">
-                    Let me help <br /> to find what  <br />you are <br /> looking for
-                </div>
-                <div className="flex flex-col items-center">
-                    {renderedLinks}
+        <div>
+            <div className="lg:basis-1/2">
+                <div className="bg-light-pink h-full flex flex-col items-center text-center justify-center py-10">
+                    <div className="text-red text-4xl md:text-6xl font-primary mb-5 md:mb-10 uppercase mt-5 md:mt-10 lg:mt-0 drop-shadow">
+                        Let me help <br /> to find what  <br />you are <br /> looking for
+                    </div>
+                    <div className="flex flex-col items-center">
+                        {renderedLinks}
+                    </div>
                 </div>
             </div>
+            <div className="bg-[url('/Untitled_Artwork-reverse.png')] bg-[length:100%] h-44 w-full bg-left-top bg-no-repeat "></div>
         </div>
     )
 }
