@@ -40,7 +40,7 @@ const Introduction = () => {
 
     return (
         <div>
-            <div id='top' className="flex flex-col lg:flex-row bg-pink items-center justify-center py-10 lg:py-8">
+            <div id='top' className="flex flex-col lg:flex-row bg-pink items-center justify-center py-10 lg:pt-4 lg:pb-0">
                 <div className="flex flex-col items-center text-center justify-center lg:pt-0">
                     <animated.div className="mb-5 drop-shadow shadow-white" style={{
                         ...springs3
