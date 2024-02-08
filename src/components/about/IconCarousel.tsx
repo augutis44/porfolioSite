@@ -117,7 +117,7 @@ const IconCarousel = () => {
                 <div className="bg-[url('/Untitled_Artwork-reverse.png')] bg-[length:100%] h-[9rem] md:h-[10rem] xl:h-[11rem] 2xl:h-[14rem] w-full bg-left-bottom bg-no-repeat"></div>
             </div>
             <div>
-                <div className='hidden bg-pink lg:flex items-center px-10'>
+                <div className='hidden bg-pink lg:flex items-center px-10 py-7'>
 
                     <div className="flex items-center justify-center basis-1/2">
                         <div className="relative w-[35vw] h-[35vw]">
