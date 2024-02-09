@@ -1,12 +1,20 @@
 
 const technologies = [
     {
+        name: 'Javascript',
+        icon: '/pngegg (1).png'
+    },
+    {
         name: 'React',
         icon: '/image (2).png'
     },
     {
         name: 'Tailwind',
         icon: '/image.png'
+    },
+    {
+        name: 'Bootstrap',
+        icon: '/Bootstrap_logo.svg.png'
     },
     {
         name: 'MUI',
@@ -17,8 +25,8 @@ const technologies = [
         icon: '/Typescript_logo_2020.svg.png'
     },
     {
-        name: 'Javascript',
-        icon: '/pngegg (1).png'
+        name: 'Node.Js',
+        icon: '/nodeJS.png'
     }
 ]
 
@@ -36,19 +44,21 @@ const Technologies = () => {
                     <div className="grid grid-rows-2 md:flex grid-flow-col md:justify-center place-items-center">
                         {technologies.map((technologies, i) => (
                             <div key={i} className="flex items-center flex-row lg:flex-col lg:text-center justify-center">
-                                <div className="lg:text-red lg:text-3xl lg:font-seondary lg:my-4 lg:inline hidden drop-shadow">
+                                {/* <div className="lg:text-red lg:text-3xl lg:font-seondary lg:my-4 lg:inline hidden drop-shadow">
                                     {technologies.name}
-                                </div>
+                                </div> */}
                                 <img src={technologies.icon} alt={technologies.name} className="w-1/2 drop-shadow-lg"></img>
                             </div>
                         ))}
                     </div>
                     <div className="text-base md:text-xl font-secondary text-center mt-10 lg:mx-16">
-                        I am a react developer, programing mainly with JavaScript. Also learing TypeScript on the side.
-                        Using Tailwind framework, but also have tried working with react component library Material-UI (MUI).
-                        Beside that, I also know how to work with GitHub.
+                        I am a React developer, mainly programming with JavaScript while also learning TypeScript on the side.
+                        Front-end work is my passion, so I enjoy experimenting with various frameworks and libraries such as Tailwind, Bootstrap, and MUI.
+                        While I admit that back-end development is not my strong suit, I'm actively working on improving my skills in that area.
+                        Beside all that, I also know how to work with GitHub for version control.
                         <br />
-                        I am a fast learner, so will be able to learn new frameworks or libaries that your company works with.
+                        <br />
+                        As a fast learner, I'm enthusiastic about adapting to new technologies that align with your company's needs.
                     </div>
                 </div>
             </div>
