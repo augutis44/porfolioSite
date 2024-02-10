@@ -1,5 +1,4 @@
 import IconCarousel from "./components/about/IconCarousel";
-// import LikeACat from "./components/cat/likeACat";
 import Footer from "./components/footer/Footer";
 import Introduction from "./components/introduction/Introduction";
 import Menu from "./components/introduction/Menu";
@@ -18,22 +17,11 @@ function App() {
       <section id='menu'>
         <Menu />
       </section>
-      
-      <section id='about'>
+
         <IconCarousel />
-      </section>
-      <section id='work'>
-        <Projects />
-      </section>
-      <section id='technologies'>
-        <Technologies />
-      </section>
-      {/* <section id='cat'>
-        <LikeACat />
-      </section> */}
-      <section id='contacts'>
+      <Projects />
+      <Technologies />
         <Footer />
-      </section>
     </div >
   );
 }

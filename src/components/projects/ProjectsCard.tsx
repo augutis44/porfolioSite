@@ -42,7 +42,7 @@ const ProjectsCard = () => {
                         </div>
                     </div>
 
-                    <div className="w-full">
+                    <div className="w-full flex flex-col items-start">
                         <div className="flex gap-6 py-6 lg:py-10 justify-center items-center">
                             <PiStarFourFill className='md:text-4xl text-2xl text-pink drop-shadow' />
 
