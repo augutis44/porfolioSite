@@ -33,10 +33,10 @@ const technologies = [
 const Technologies = () => {
     return (
         <div>
-            <div className="bg-light-pink">
-                <div className="bg-[url('/Untitled_Artwork-reversev2.png')] bg-[length:100%] h-[9rem] md:h-[10rem] xl:h-[11rem] 2xl:h-[14rem] w-full bg-left-bottom bg-no-repeat"></div>
+            <div className="bg-pink">
+                <div className="bg-[url('/Untitled_Artwork-reversev2.png')] bg-[length:100%] h-[9rem] md:h-[10rem] xl:h-[11rem] 2xl:h-[14rem] w-full bg-left-top bg-no-repeat"></div>
             </div>
-            <div className="bg-pink flex ">
+            <div className="bg-pink flex">
                 <div className="bg-light-pink m-3 lg:m-14 p-3 rounded-xl flex flex-col justify-center drop-shadow-lg">
                     <div className="text-red md:text-6xl text-3xl font-primary pb-10 uppercase text-center drop-shadow">
                         Technologies i work with

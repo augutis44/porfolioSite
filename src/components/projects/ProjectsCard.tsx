@@ -21,7 +21,7 @@ const projects = [
     },
     {
         name: 'Employee Management System',
-        about: 'Site for another amazing project. Built using this and this techolosies. ',
+        about: 'Site for accounting and other financial consulting business. Built using React, JS, MUI.    ',
         imageUrl: '/EmplManagement.png',
         link: 'https://github.com/augutis44/EmployeeManagement'
     }
@@ -31,7 +31,7 @@ const ProjectsCard = () => {
     return (
         <div className="flex flex-col gap-14 lg:gap-10 justify-center items-center">
             {projects.map((project, i) => (
-                <div key={i} className="flex lg:gap-14 flex-col lg:flex-row text-center lg:text-left">
+                <div key={i} className="flex lg:gap-14 flex-col lg:flex-row text-center lg:text-left lg:max-w-[1200px] lg:w-full">
 
                     <div className="h-[15rem] md:h-[20rem] w-full">
                         <div
@@ -43,7 +43,7 @@ const ProjectsCard = () => {
                     </div>
 
                     <div className="w-full">
-                        <div className="flex gap-6 py-6 lg:py-10 justify-center">
+                        <div className="flex gap-6 py-6 lg:py-10 justify-center items-center">
                             <PiStarFourFill className='md:text-4xl text-2xl text-pink drop-shadow' />
 
                             <div className="text-red text-2xl md:text-3xl font-seondary drop-shadow">
