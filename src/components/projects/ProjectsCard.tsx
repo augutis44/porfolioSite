@@ -34,7 +34,11 @@ const ProjectsCard = () => {
                 <div key={i} className="flex lg:gap-14 flex-col lg:flex-row text-center lg:text-left">
 
                     <div className="h-[15rem] md:h-[20rem] w-full">
-                        <div className={`h-full bg-[url('${project.imageUrl}')] rounded-lg drop-shadow-lg bg-no-repeat bg-cover`}>
+                        <div
+                            style={{
+                                backgroundImage: `url(${project.imageUrl})`
+                            }}
+                            className={`h-full rounded-lg drop-shadow-lg bg-no-repeat bg-cover`}>
                         </div>
                     </div>
 
@@ -65,8 +69,9 @@ const ProjectsCard = () => {
                     </div>
 
                 </div>
-            ))}
-        </div>
+            ))
+            }
+        </div >
     );
 };
 
