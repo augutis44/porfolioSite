@@ -1,9 +1,10 @@
 import { useState } from 'react';
-import { FaRunning, FaHamburger, FaPlane, FaHome, FaCat } from 'react-icons/fa';
+import { FaRunning, FaPlane, FaHome, FaCat } from 'react-icons/fa';
 import { BsPaletteFill } from "react-icons/bs";
 import { FaCalculator } from "react-icons/fa6";
 import { PiSneakerFill } from "react-icons/pi";
 import { FiArrowLeft, FiArrowRight } from "react-icons/fi";
+import { IoGameController } from "react-icons/io5";
 import MobileAbout from './MobileAbout';
 import { IconsProps } from './PropTypes';
 
@@ -16,11 +17,11 @@ const icons: IconsProps[] = [
         text: 'Trying to stay active all year round. In the summer I like outdoor activities like running and hiking. In the cold season I go to the gym and pole sport classes.'
     },
     {
-        name: FaHamburger,
+        name: IoGameController,
         divDeg: 45,
         id: 1,
-        title: 'Cooking',
-        text: 'I am a FOODIE. Love cooking food at home, making homemade pizza and burgers all from scratch, even the dough. Also, sometimes make cakes and buns.'
+        title: 'Gaming',
+        text: 'I like playing games on the weekends, whether the game is in pc or board/card games. My favorite game on pc would be CS:GO and favorite card game is Exploding Kittens. Also like playing puzzle, mystery games.'
     },
     {
         name: FaPlane,
