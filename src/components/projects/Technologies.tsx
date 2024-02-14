@@ -34,7 +34,7 @@ const Technologies = () => {
     return (
         <div>
             <div className="bg-pink">
-                <div className="bg-[url('/Untitled_Artwork-reversev2.png')] bg-[length:100%] h-[9rem] md:h-[10rem] xl:h-[11rem] 2xl:h-[14rem] w-full bg-left-top bg-no-repeat"></div>
+                <div className="bg-[url('/Untitled_Artwork-reversev2.png')] bg-[length:100%] h-[9rem] md:h-[11rem] xl:h-[13rem] 2xl:h-[17rem] w-full bg-left-top bg-no-repeat"></div>
             </div>
             <div id='technologies' className="bg-pink flex">
                 <div className="bg-light-pink m-3 lg:m-14 p-3 rounded-xl flex flex-col justify-center drop-shadow-lg">
