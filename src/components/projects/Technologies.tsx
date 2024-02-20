@@ -27,6 +27,10 @@ const technologies = [
     {
         name: 'Node.Js',
         icon: '/nodeJS.png'
+    },
+    {
+        name: 'Figma',
+        icon: '/figma.png'
     }
 ]
 
@@ -55,7 +59,7 @@ const Technologies = () => {
                         I am a React developer, mainly programming with JavaScript while also learning TypeScript on the side.
                         Front-end work is my passion, so I enjoy experimenting with various frameworks and libraries such as Tailwind, Bootstrap, and MUI.
                         While I admit that back-end development is not my strong suit, I'm actively working on improving my skills in that area.
-                        Beside all that, I also know how to work with GitHub for version control.
+                        Beside all that, I also know how to work with GitHub for version control and can design/develop pixel to pixel by design with Figma.
                         <br />
                         <br />
                         As a fast learner, I'm enthusiastic about adapting to new technologies that align with your company's needs.
