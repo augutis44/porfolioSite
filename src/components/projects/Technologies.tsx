@@ -1,12 +1,16 @@
 
 const technologies = [
     {
+        name: 'React',
+        icon: '/image (2).png'
+    },
+    {
         name: 'Javascript',
         icon: '/pngegg (1).png'
     },
     {
-        name: 'React',
-        icon: '/image (2).png'
+        name: 'Typescript',
+        icon: '/Typescript_logo_2020.svg.png'
     },
     {
         name: 'Tailwind',
@@ -21,12 +25,12 @@ const technologies = [
         icon: '/image (1).png'
     },
     {
-        name: 'Typescript',
-        icon: '/Typescript_logo_2020.svg.png'
-    },
-    {
         name: 'Node.Js',
         icon: '/nodeJS.png'
+    },
+    {
+        name: 'NextJS',
+        icon: '/Nextjs.png'
     },
     {
         name: 'Figma',
@@ -56,7 +60,7 @@ const Technologies = () => {
                         ))}
                     </div>
                     <div className="text-base md:text-xl font-secondary text-center mt-10 lg:mx-16">
-                        I am a React developer, mainly programming with JavaScript while also learning TypeScript on the side.
+                        I am a React developer, programming with JavaScript and TypeScript.
                         Front-end work is my passion, so I enjoy experimenting with various frameworks and libraries such as Tailwind, Bootstrap, and MUI.
                         While I admit that back-end development is not my strong suit, I'm actively working on improving my skills in that area.
                         Beside all that, I also know how to work with GitHub for version control and can design/develop pixel to pixel by design with Figma.
